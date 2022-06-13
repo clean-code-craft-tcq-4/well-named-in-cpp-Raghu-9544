@@ -11,6 +11,7 @@ void testNumberToPair(int pairNumber,
     assert(colorPair.getMinor() == expectedMinor);
 }
 
+
 void testPairToNumber(
     TelCoColorCoder::MajorColor major,
     TelCoColorCoder::MinorColor minor,
