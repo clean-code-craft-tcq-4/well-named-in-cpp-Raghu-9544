@@ -1,4 +1,6 @@
-namespace TelCoColorCoder {
+#include <iostream>
+#include <string>
+using namespace std;
 
 class ColorPair {
         private:
@@ -43,5 +45,4 @@ void testPairToNumber(
     int pairNumber = TelCoColorCoder::GetPairNumberFromColor(major, minor);
     std::cout << "Got pair number " << pairNumber << std::endl;
     assert(pairNumber == expectedPairNumber);
-}
 }
