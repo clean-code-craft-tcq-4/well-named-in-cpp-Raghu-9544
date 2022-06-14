@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-using namespace std;
+namespace TelCoColorCoder {
 
 class ColorPair {
         private:
@@ -23,8 +23,8 @@ class ColorPair {
                 return colorPairStr;
             }
     };
-    
-            
+}
+               
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
     TelCoColorCoder::MinorColor expectedMinor)
@@ -35,7 +35,6 @@ void testNumberToPair(int pairNumber,
     assert(colorPair.getMajor() == expectedMajor);
     assert(colorPair.getMinor() == expectedMinor);
 }
-
 
 void testPairToNumber(
     TelCoColorCoder::MajorColor major,
