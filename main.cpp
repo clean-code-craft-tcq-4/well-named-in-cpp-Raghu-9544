@@ -31,6 +31,8 @@ namespace TelCoColorCoder
         return major * numberOfMinorColors + minor + 1;
     }
     
+}
+    
     class ColorPair {
         private:
             MajorColor majorColor;
@@ -75,8 +77,6 @@ void testPairToNumber(
     assert(pairNumber == expectedPairNumber);
 }
     
-    
-}
 
 int main()  {
     testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
