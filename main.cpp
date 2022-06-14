@@ -52,9 +52,7 @@ namespace TelCoColorCoder
             }
     };
     
-}
-        
-        
+            
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
     TelCoColorCoder::MinorColor expectedMinor)
@@ -86,4 +84,6 @@ int main()  {
     testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
 
     return 0;
+}
+ 
 }
