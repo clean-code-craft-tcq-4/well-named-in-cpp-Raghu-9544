@@ -1,7 +1,5 @@
 #include<iostream>
 
-namespace TelCoColorCoder  {
-
 class ColorPair {
         private:
             MajorColor majorColor;
@@ -24,7 +22,7 @@ class ColorPair {
             }
     };
         
-        void testNumberToPair(int pairNumber,
+void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
     TelCoColorCoder::MinorColor expectedMinor)
 {
@@ -46,4 +44,4 @@ void testPairToNumber(
     assert(pairNumber == expectedPairNumber);
 }
 
-}
+
