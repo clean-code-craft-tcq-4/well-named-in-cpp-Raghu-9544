@@ -30,8 +30,6 @@ namespace TelCoColorCoder
         return major * numberOfMinorColors + minor + 1;
     }
     
-}
-    
     class ColorPair {
         private:
             MajorColor majorColor;
@@ -53,6 +51,9 @@ namespace TelCoColorCoder
                 return colorPairStr;
             }
     };
+    
+}
+        
         
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
