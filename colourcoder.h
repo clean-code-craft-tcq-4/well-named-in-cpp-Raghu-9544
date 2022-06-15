@@ -17,7 +17,7 @@ namespace TelCoColorCoder
         sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
     
-    ColorPair GetColorFromPairNumber(int pairNumber) {
+    ColorPair : GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
         MajorColor majorColor = 
             (MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
