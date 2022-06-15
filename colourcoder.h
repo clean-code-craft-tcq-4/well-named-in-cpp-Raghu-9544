@@ -1,6 +1,4 @@
-#include <iostream>
-
-namespace TelCoColorCoder
+namespace TelCoColorCoder 
 {
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
     enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
@@ -14,7 +12,5 @@ namespace TelCoColorCoder
         "Blue", "Orange", "Green", "Brown", "Slate"
     };
     int numberOfMinorColors =
-        sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
-
-        
+        sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);  
 }
