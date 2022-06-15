@@ -1,9 +1,7 @@
-#include <iostream>
-#include <string>
-
 namespace TelCoColorCoder {
 
-class ColorPair {
+    class ColorPair 
+    {
         private:
             MajorColor majorColor;
             MinorColor minorColor;
@@ -23,8 +21,10 @@ class ColorPair {
                 colorPairStr += MinorColorNames[minorColor];
                 return colorPairStr;
             }
+            
     };
-         ColorPair  GetColorFromPairNumber(int pairNumber) {
+    
+    ColorPair GetColorFromPairNumber(int pairNumber) {
         int zeroBasedPairNumber = pairNumber - 1;
         MajorColor majorColor = 
             (MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
